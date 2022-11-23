@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+html,
+body {
+    font-family: cursive;
+    line-height: 2 em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 3px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Navigation Bar */
+
+#navi {
+    background-color: #16213E;
+    color: white;
+    overflow: auto;
+}
+
+#navi a {
+    color: #EFF5F5;
+}
+
+#navi h1 {
+    float: left;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+#navi ul {
+    list-style: none;
+    float: right;
+}
+
+#navi ul li {
+    float: left;
+}
+
+#navi ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navi ul li a:hover,
+#navi ul li a.curr {
+    background: #FEBE8C;
+    color: #16213E;
+}
+
+/* Showcase */
+
+#home {
+    background: url('./home.jpg') no-repeat center center/cover;
+    height: 500px;
+    opacity: 0.85;
+}
+
+#home .home-content {
+    color: #550A46;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#home .home-content h1 {
+    font-size: 40px;
+    line-height: 1.8em;
+}
+
+#home .home-content .button {
+    padding-top: 270px;
+}
+
+.btn1,
+.btn2 {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 13px 20px;
+    border: none;
+}
+
+.gap {
+    padding-left: 300px;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background: #FEBE8C;
+    color: black;
+}
+
+/* Home Info*/
+
+.bg-dark {
+    background: #16213E;
+}
+
+#home-info {
+    height: 250px;
+}
+
+#home-info .box {
+    float: right;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    padding: 30px 30px;
+    overflow: hidden;
+}
+
+#home-info .box p {
+    padding-top: 15px;
+    color: white;
+}
+
+#home-info .swimming {
+    color: #21E1E1;
+}
+
+#home-info #mid {
+    background: white;
+}
+
+#home-info #mid p {
+    color: black;
+}
+
+/* Home-Footer */
+
+#home-footer {
+    text-align: center;
+    background: #080414;
+    color: white;
+    padding: 10px;
+}
+
+/* About */
+
+#about-body {
+    background: #FEFBF3;
+}
+
+#about {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+#about .about-heading {
+    color: #FEBE8C;
+}
+
+#about .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about .info-right {
+    float: right;
+    min-height: 100%;
+    width: 50%;
+}
+
+#about .info-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.clr1 {
+    padding: 140px 140px 140px 140px;
+}
+
+/* Reviews */
+
+#reviews {
+    padding-top: 30px;
+    height: 600px;
+    background: url(background.jpg) no-repeat center center/cover;
+}
+
+#reviews h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#reviews .review-container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#reviews .review1,
+.review2,
+.review3 {
+    background: #FEBE8C;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+#reviews img {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100px;
+}
+
+#reviews p {
+    float: right;
+    width: 85%;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+/* Contact */
+
+#contact {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact .form-heading {
+    color: #FEBE8C;
+}
+
+#contact .form {
+    margin-bottom: 10px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    /* width: 100%; */
+    padding: 10px;
+    border: 1px solid;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border-color: #FEBE8C;
+}
+
+/* Contact Info */
+
+#contact-info {
+    height: 200px;
+    background: #16213E;
+}
+
+#contact-info .box {
+    float: right;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    padding: 30px 30px;
+    overflow: hidden;
+}
+
+#contact-info .box p {
+    color: white;
+}
+
+#contact-info .swimming {
+    color: #21E1E1;
+}
+
+#contact-info #mid p {
+    color: white;
+}
+
+/* Rooms */
+
+#room-full {
+    background: #F9F9F9;
+}
+
+#rooms h1 {
+    text-align: center;
+    color: #FEBE8C;
+    padding: 20px;
+}
+
+/* Room 1 */
+
+#rooms .room1 {
+    padding: 10px 200px 0px 150px;
+}
+
+#rooms .room1-left {
+    padding-top: 50px;
+    float: left;
+}
+
+#rooms .room1-right {
+    float: right;
+}
+
+#rooms .rooms-heading {
+    color: #FEBE8C;
+}
+
+#rooms .oldrate {
+    color: red;
+}
+
+/* Room 2 */
+
+#rooms .room2 {
+    padding: 300px 200px 0px 150px;
+}
+
+#rooms .room2-left {
+    padding-top: 0px;
+    float: left;
+}
+
+#rooms .room2-right {
+    padding-top: 90px;
+    float: right;
+}
+
+#rooms .rooms-heading {
+    color: #FEBE8C;
+}
+
+#rooms .oldrate {
+    color: red;
+}
+
+/* Room 3 */
+
+#rooms .room3 {
+    padding: 320px 200px 0px 150px;
+}
+
+#rooms .room3-left {
+    padding-top: 90px;
+    float: left;
+}
+
+#rooms .room3-right {
+    float: right;
+}
+
+#rooms .rooms-heading {
+    color: #FEBE8C;
+}
+
+#rooms .oldrate {
+    color: red;
+}
+
+/* Know more */
+
+#know-more {
+    float: left;
+    padding: 100px 0px 0px 600px;
+}
+
+.clr {
+    padding-top: 400px;
+}
